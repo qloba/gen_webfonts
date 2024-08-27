@@ -5,18 +5,20 @@
 ## Set your Google API key
 
 Google Fonts API documentation
+
 https://developers.google.com/fonts/docs/developer_api?hl=ja
 
-/environments/python.env
+`/environments/python.env`
 
 ```shell
 GOOGLE_FONTS_API_KEY=<YOUR_API_KEY>
 ```
 
-## List webfonts you need
+## List the web fonts you need
+
+`config/webfonts.json`
 
 ```json
-# config/webfonts.json
 {
   "notosansjp": "Noto Sans JP",
   "notoserifjp": "Noto Serif JP"
@@ -26,5 +28,5 @@ GOOGLE_FONTS_API_KEY=<YOUR_API_KEY>
 ## Generate fonts
 
 ```shell
-docker-compose up
+$ docker-compose up
 ```
