@@ -1,0 +1,10 @@
+version: '3'
+name: gen_webfonts
+services:
+  python:
+    build:
+      context: python
+    volumes:
+      - ./python:/python:delegated
+    env_file:
+      - ./environments/python.env

@@ -1,0 +1,8 @@
+/python/config/notosansjp.css
+/python/config/ranges.json
+/python/config/webfonts_spec.json
+/python/dist/*
+!/python/dist/.keep
+/python/fonts/*
+!/python/fonts/.keep
+/environments/python.env

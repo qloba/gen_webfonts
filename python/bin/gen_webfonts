@@ -1,0 +1,5 @@
+#!/bin/bash
+
+python src/get_ranges.py
+python src/gen_webfonts.py
+python src/gen_stylesheets.py
