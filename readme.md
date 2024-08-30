@@ -1,4 +1,6 @@
-# Webfont generator
+# Web font generator
+
+Web font generator splits the Japanese web font specified by Google Fonts into about 120 subsets and converts them to .woff2 format.
 
 # Configuration
 
